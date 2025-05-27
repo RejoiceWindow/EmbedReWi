@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.79" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme="dark"] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"MPU-6050","image":[""],"dateModified":"2025-05-06T05:37:26.000Z","author":[{"@type":"Person","name":"ReWi","url":"https://gitee.com/re-wi","email":"RejoiceWindow@yeah.net"},{"@type":"Person","name":"ReWi","url":"https://github.com/Re-Wi/","email":"RejoiceWindow@yeah.net"},{"@type":"Person","name":"RejoiceWindow"}]}</script><meta property="og:url" content="https://em.rewi.xyz/hardware/MPU-6050.html"><meta property="og:site_name" content="EmbedReWi"><meta property="og:title" content="MPU-6050"><meta property="og:description" content="MPU-6050 是一款由 TDK InvenSense 公司推出的 6 轴运动处理传感器模块，集成了 3 轴加速度计和 3 轴陀螺仪，广泛用于测量物体的运动状态（如加速度、角速度），并通过 I²C 或 SPI 接口与微控制器通信。以下是其核心知识点详解： 一、核心功能与参数 1. 传感器类型 3 轴加速度计： 测量物体在 X、Y、Z 轴上的 线性加速..."><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2025-05-06T05:37:26.000Z"><meta property="article:tag" content="MPU-6050"><meta property="article:modified_time" content="2025-05-06T05:37:26.000Z"><link rel="alternate" type="application/rss+xml" href="https://em.rewi.xyz/rss.xml" title="EmbedReWi RSS Feed"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#46bd87"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/favicon.ico"><link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials"><link rel="icon" href="/assets/icon/chrome-mask-512.png" type="image/png" sizes="512x512"><link rel="icon" href="/assets/icon/chrome-mask-192.png" type="image/png" sizes="192x192"><link rel="icon" href="/assets/icon/chrome-512.png" type="image/png" sizes="512x512"><link rel="icon" href="/assets/icon/chrome-192.png" type="image/png" sizes="192x192"><link rel="apple-touch-icon" href="/assets/icon/apple-icon-152.png"><title>MPU-6050 | EmbedReWi</title><meta name="description" content="MPU-6050 是一款由 TDK InvenSense 公司推出的 6 轴运动处理传感器模块，集成了 3 轴加速度计和 3 轴陀螺仪，广泛用于测量物体的运动状态（如加速度、角速度），并通过 I²C 或 SPI 接口与微控制器通信。以下是其核心知识点详解： 一、核心功能与参数 1. 传感器类型 3 轴加速度计： 测量物体在 X、Y、Z 轴上的 线性加速...">
+    <link rel="preload" href="/assets/style-_NCjCiF_.css" as="style"><link rel="stylesheet" href="/assets/style-_NCjCiF_.css">
+    <link rel="modulepreload" href="/assets/app-DIMvcjhy.js"><link rel="modulepreload" href="/assets/MPU-6050.html-CU_jRjw_.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!--[--><!----><!----><!----><!--[--><!--]--><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-DIMvcjhy.js" defer></script>
+  </body>
+</html>

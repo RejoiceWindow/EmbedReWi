@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.79" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme="dark"] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"中断","image":[""],"dateModified":"2025-04-15T09:58:18.000Z","author":[{"@type":"Person","name":"ReWi","url":"https://gitee.com/re-wi","email":"RejoiceWindow@yeah.net"},{"@type":"Person","name":"ReWi","url":"https://github.com/Re-Wi/","email":"RejoiceWindow@yeah.net"},{"@type":"Person","name":"RejoiceWindow"}]}</script><meta property="og:url" content="https://em.rewi.xyz/advance/%E4%B8%AD%E6%96%AD.html"><meta property="og:site_name" content="EmbedReWi"><meta property="og:title" content="中断"><meta property="og:description" content="关中断 本质 操作：通过指令（如ARM的CPSID I或__disable_irq()）关闭全局中断响应（禁止CPU响应新的中断）。 目的：保护临界区代码（如共享资源操作）不被中断打断，确保原子性。 关中断期间的中断处理机制 关键硬件行为 中断标志（Pending Flag） 作用：记录中断请求是否发生（即使中断被禁用）。 行为： 若中断被禁用（关中断..."><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2025-04-15T09:58:18.000Z"><meta property="article:tag" content="中断"><meta property="article:modified_time" content="2025-04-15T09:58:18.000Z"><link rel="alternate" type="application/rss+xml" href="https://em.rewi.xyz/rss.xml" title="EmbedReWi RSS Feed"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#46bd87"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/favicon.ico"><link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials"><link rel="icon" href="/assets/icon/chrome-mask-512.png" type="image/png" sizes="512x512"><link rel="icon" href="/assets/icon/chrome-mask-192.png" type="image/png" sizes="192x192"><link rel="icon" href="/assets/icon/chrome-512.png" type="image/png" sizes="512x512"><link rel="icon" href="/assets/icon/chrome-192.png" type="image/png" sizes="192x192"><link rel="apple-touch-icon" href="/assets/icon/apple-icon-152.png"><title>中断 | EmbedReWi</title><meta name="description" content="关中断 本质 操作：通过指令（如ARM的CPSID I或__disable_irq()）关闭全局中断响应（禁止CPU响应新的中断）。 目的：保护临界区代码（如共享资源操作）不被中断打断，确保原子性。 关中断期间的中断处理机制 关键硬件行为 中断标志（Pending Flag） 作用：记录中断请求是否发生（即使中断被禁用）。 行为： 若中断被禁用（关中断...">
+    <link rel="preload" href="/assets/style-_NCjCiF_.css" as="style"><link rel="stylesheet" href="/assets/style-_NCjCiF_.css">
+    <link rel="modulepreload" href="/assets/app-DIMvcjhy.js"><link rel="modulepreload" href="/assets/中断.html-CGIUIeg3.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!--[--><!----><!----><!----><!--[--><!--]--><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-DIMvcjhy.js" defer></script>
+  </body>
+</html>
